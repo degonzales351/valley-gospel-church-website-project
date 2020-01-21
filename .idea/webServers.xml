@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="68994f94-150a-40a3-a7a5-7f7eabe8c40e" name="valley-gospel" url="http://bootcamp-coders.cnm.edu/-dgonzales371/valley-gospel-church-website-project">
+        <fileTransfer host="bootcamp-coders.cnm.edu" port="22" rootFolder="/me/dgonzales371/public_html/valley-gospel-church-website-project" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
