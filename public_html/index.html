@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 	<title>ValleyGospel.com</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="Valley-Gospel-Tabernacle.html">
+	<link rel="stylesheet" href="index.html">
+	<link rel="stylesheet" href="styles.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -29,19 +30,7 @@
 						<a class="nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Screens</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Calendar</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Pastor's Blog</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Giving</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
 					</li>
 				</ul>
 			</div>
@@ -52,12 +41,12 @@
 	</div>
 	</div>
 	<div class="text-dark">
-	<div class="container-fluid border border-dark mx-sm-3"></div>
+	<div class="container-fluid border border-dark mx-sm-3 my-3"></div>
 	<h1 class="text-center"><strong>Hi Welcome to our church</strong></h1>
 	<p class="text-center"><strong>We are a local non profit church that looks to unite the local and surrounding communities with the Gospel. Feel free to come join our local church and learn more about Jesus coming to know God in truth and in spirit.</strong></p>
 	</div>
 	</div>
-	<div class="container text-dark">
+	<div class="container text-dark mt-3">
 	<div class="container-fluid border border-dark mx-sm-3"></div>
 <h1 class="text-center">Community Project Showcase</h1>
 	<div class="container">
@@ -84,6 +73,12 @@
 	</div>
 	</div>
 	</div>
+
+	<div class="container" id="about">
+		<h1>About Us</h1>
+		<p>This will display information about the church</p>
+
+	</div>
 	<!--Section: Contact v.2-->
 	<div class="container-fluid text-dark">
 
@@ -99,7 +94,7 @@
 
 			<!--Grid column-->
 			<div class="col-md-9 mb-md-0 mb-5">
-				<form id="contact-form" name="contact-form" action="../php" method="POST">
+				<form id="contact-form" name="contact-form" action="../php/" method="POST">
 
 					<!--Grid row-->
 					<div class="row">
@@ -150,8 +145,11 @@
 						</div>
 					</div>
 					<!--Grid row-->
+					<div class="g-recaptcha" data-sitekey="6Lf8cNoUAAAAACXfU0AHivGBoMbIisNL2pePS7K0"></div>
+
 
 				</form>
+
 
 				<div class="text-center text-md-left">
 					<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
@@ -176,10 +174,8 @@
 					</li>
 				</ul>
 			</div>
-			<div class="g-recaptcha" data-sitekey="6Lf8cNoUAAAAACXfU0AHivGBoMbIisNL2pePS7K0"></div>
 
-			<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-			<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+
 
 			<div class="row">
 				<div class="col-xs-12">
@@ -189,7 +185,7 @@
 			<!--Grid column-->
 
 		</div>
-		<a href=""></a>
+
 	</section>
 	</div>
 	<!--Section: Contact v.2-->
