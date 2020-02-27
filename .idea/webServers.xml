@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="68994f94-150a-40a3-a7a5-7f7eabe8c40e" name="valley-gospel-church-website-project" url="https://bootcamp-coders.cnm.edu/~dgonzales371/valley-gospel-church-website-project">
-        <fileTransfer host="bootcamp-coders.cnm.edu" port="22" rootFolder="/home/dgonzales371/public_html/valley-gospel-church-website-project" accessType="SFTP" authAgent="true">
+        <fileTransfer host="167.172.211.233" port="22" rootFolder="/home/dgonzales371/valley-gospel-church-website-project" accessType="SFTP" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
